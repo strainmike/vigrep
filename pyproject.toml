@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "vigrep"
+version = "0.1"
+description = "Searches through text contained in LabVIEW VI files in a specified directory"
+authors = ["strainmike",]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.7.0"
+pylabview = { git ="https://github.com/strainmike/pylabview.git"}
+tqdm = "^4.64.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "*"
+
+[tool.poetry.scripts]
+vigrep = "vigrep.__main__:main"
