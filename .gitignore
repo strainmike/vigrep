@@ -1,0 +1,5 @@
+*.pyc
+dist/
+*.lock
+build/
+pylabview.egg-info/
