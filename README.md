@@ -10,4 +10,4 @@ Currently vigrep only does exact string matches and always recursively searches 
 
 # Contributing
 
-Feel free to improve this.  This currently does the bare minimum I want of it.
+Feel free to post PRs to improve this.  This currently does the bare minimum I want of it.
