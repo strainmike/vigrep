@@ -147,13 +147,13 @@ def walk_and_parse_files(root_dir, to_find):
             raise
         except:
             failed_to_parse += 1
-            raise
-    print(
-        "failed to parse:"
-        + str(failed_to_parse)
-        + " out of "
-        + str(len(files_to_check))
-    )
+    if failed_to_parse:
+        print(
+            "failed to parse:"
+            + str(failed_to_parse)
+            + " out of "
+            + str(len(files_to_check))
+        )
 
 
 def main():
