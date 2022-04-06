@@ -3,7 +3,7 @@ Grep for the LabVIEW binary file format.
 
 # Usage
 
-    pip install vigrep
+    pip install git+https://github.com/strainmike/vigrep.git
     vigrep PATTERN DIRECTORY
     
 Currently vigrep only does exact string matches and always recursively searches directories.
