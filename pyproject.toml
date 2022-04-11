@@ -7,7 +7,7 @@ license = "MIT"
 
 [tool.poetry.dependencies]
 python = "^3.7.0"
-pylabview = { git ="https://github.com/strainmike/pylabview.git"}
+pylabview = "^0.1"
 tqdm = "^4.64.0"
 
 [tool.poetry.dev-dependencies]
