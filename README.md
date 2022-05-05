@@ -1,5 +1,5 @@
 # vigrep
-Grep for the LabVIEW binary file format.
+Grep for the LabVIEW binary file format.  Searches for string constants, labels, Call Library Nodes, names of Called VI's, etc.
 
 # Usage
 
